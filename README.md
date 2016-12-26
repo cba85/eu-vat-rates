@@ -34,6 +34,6 @@ You'll find more examples in the ``example`` folder.
 
 If VAT rates evolve, change the results expected.
 
-```
+```bash
 phpunit --bootstrap vendor/autoload.php tests/RatesTest
 ```
