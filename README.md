@@ -32,7 +32,7 @@ You'll find more examples in the ``example`` folder.
 
 ## Tests
 
-If TVA rates evolve, change the results expected.
+If VAT rates evolve, change the results expected.
 
 ```
 phpunit --bootstrap vendor/autoload.php tests/RatesTest
