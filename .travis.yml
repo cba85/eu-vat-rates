@@ -7,4 +7,4 @@ before_script:
   - composer self-update
   - composer install --dev
 
-script: phpunit --bootstrap vendor/autoload.php tests/ValidationTest
+script: phpunit --bootstrap vendor/autoload.php tests/RatesTest
