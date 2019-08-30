@@ -5,10 +5,8 @@ use VatRates\Rates;
 class RateTest extends TestCase
 {
 
-    /**
-     * @expectedException Exception
-     */
     public function testUnknownCountryRate() {
+        $this->expectException(Exception::class);
         $rates = new Rates;
         $rate = $rates->getRate('TE');
     }
