@@ -1,6 +1,6 @@
 # European VAT rates
 
-A PHP package to grab up-to-date VAT rates for any European Union member state. 
+A PHP package to grab up-to-date VAT rates for any European Union member state.
 
 This package uses http://jsonvat.com to obtain its data for the VAT rates.
 
@@ -35,5 +35,5 @@ You'll find more examples in the ``example`` folder.
 If VAT rates evolve, change the results expected.
 
 ```bash
-phpunit --bootstrap vendor/autoload.php tests/RatesTest
+$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/RatesTest
 ```
